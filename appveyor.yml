@@ -1,0 +1,5 @@
+build: off
+
+test_script:
+  - ps: .\DoTests.ps1
+  - pwsh: .\DoTests.ps1
