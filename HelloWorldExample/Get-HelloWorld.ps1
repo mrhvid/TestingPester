@@ -1,3 +1,6 @@
 ﻿function Get-HelloWorld {
-    "Hello World"
+    param (
+        $Country = 'World'
+    )
+    "Hello $Country"
 }
